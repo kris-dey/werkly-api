@@ -10,7 +10,7 @@ mkdir <project-name>
 cd <project-name>
 virtualenv venv
 source venv/bin/activate
-git clone https://github.com/KrishanuDey/werkly-api
+git clone https://github.com/krishanu-dey/werkly-api
 cd werkly-api
 pip3 install -r requirements.txt
 python3 manage.py makemigrations
